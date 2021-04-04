@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Praktikum 6.1</title>
+        <style>
+            .static{
+                left: 100px;
+                position: static;
+                width: 300px;
+                height: 100px;
+                background: royalblue;                
+            }
+            .relative{
+                left: 100px;
+                position: relative;
+                width: 400px;
+                height: 200px;
+                background: sandybrown;
+            }
+            .absolute{
+                left: 350px;
+                top: 150px;
+                position: absolute;
+                width: 800px;
+                height: 100px;
+                background: wheat;
+            }
+            .fixed{
+                left: 300px;
+                top: 50px;
+                position: fixed;
+                width: 200px;
+                height: 100px;
+                background: palevioletred;
+            }
+        </style>
+    </head>
+    <body background="floral2.jpg">
+        <div class="static">
+            Ini Elemen Position : Static.<br>Nilai Left : 100px tidak berpengaruh
+        </div>
+        <div class="relative">
+            Ini Elemen Position : Relative.<br>Nilai Left : 100px mengikuti alur
+        </div>
+        <div class="absolute">
+            Ini Elemen Position : absolute.<br>Dapat diletkkan dimana saja
+        </div>
+        <div class="fixed">
+            Ini Elemen Position : Fixed.<br>Posisi tetap walau di scrol
+        </div>
+    </body>
+</html>

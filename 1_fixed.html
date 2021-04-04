@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Position : Fixed</title>
+        <style>
+            .wrapper{
+                background: url(images/floral2.jpg);
+                border: 8px;
+                padding: 16px;
+                margin: 32px;
+                position: relative;
+                min-height: 300px;
+                border-radius: 50px;
+                text-align: center;
+            }
+
+            .box{
+                background:#333;
+                color: #fff;
+                padding: 10px;
+                left: 40px;
+                margin-top: 40px;
+                position: absolute;
+            }
+
+            .box1{
+                top: 50px;
+                bottom: 0px;
+                background: lightskyblue;
+            }
+
+            .box2{
+                top:100px;
+                background: lightgreen;
+                left: 80px;
+                bottom: 0px;
+            }
+
+            .box3{
+                top: 140px;
+                left: 120px;
+                background:plum;
+                bottom: 0px;
+            }
+
+            .box4{
+                top: 170px;
+                left: 150px;
+                background: pink;
+                bottom: 0px;
+            }
+
+            .navigasi{
+                position: fixed;
+                background: rgb(255, 192, 75);
+                right: 10px;
+                left: 10px;
+                z-index: 1;
+                padding: 10px;
+            }
+
+        </style>
+    </head>
+    <body>
+        
+        <div class="wrapper">
+            <div class="navigasi">Menu</div>
+            <h2>Fixed Position</h2>
+            <div class="box box1">Box 1</div>
+            <div class="box box2">Box 2</div>
+            <div class="box box3">Box 3</div>
+            <div class="box box4">Box 4</div>
+        </div>
+        
+    </body>
+</html>
